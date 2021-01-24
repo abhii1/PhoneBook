@@ -34,7 +34,7 @@ Application has inbuild database by MongoDb atlas and uses python pymongo module
 
 <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="42" height="42">
 
-- [X] GitHub : https://github.com/abhii1/CRUD-APPLICATION
+- [X] GitHub : https://github.com/abhii1/PhoneBook
 
 
 

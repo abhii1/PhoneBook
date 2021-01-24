@@ -141,8 +141,8 @@ python app.py
 <img src="https://user-images.githubusercontent.com/49953175/105625280-e73d9e80-5e4d-11eb-86cb-9610b6df8805.gif" >
 
 
-**Search by Name **
-In place of email put Name 
+**Search by Name  In place of email put Name **
+
 
 
 

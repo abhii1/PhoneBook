@@ -170,63 +170,54 @@ python app.py
 ## End_point
 
 ```
-#PUT DATA 
+#add contact 
    
-localhost/add_con
+localhost/add_contact
 
-#user need to enter the column name and value in the body>form-data
+#user need to enter data in json in postman as given features 
 
    ```
    
 ```
-#GET DATA 
+#update contact 
 
-localhost/GET_DATA/<column>
+http://localhost:5001/update_contact 
 
-#in place select desire column name 
-
-```
-
-```
-#update by id 
-
-localhost//Update/<id>/<update_column>
-
-#user need to select id and then column to update and value of updated field in body>>form-data
-
+# user need to enter data in json in postman as given features 
 
 ```
 
 ```
-#update by filter 
+#Delete contact 
 
-localhost/Update/by/<filter_except_id>/<update_column>
+http://localhost:5001/delete_contact
 
-#user need to select filter and column to update in filter_except_id and update_column
-
+#user need to enter data in json in postman as given features 
 
 
 ```
 
 ```
-delete by id
+#Get all contact 
 
-localhost/DELETE/<id>
+http://localhost:5001/all_contact
 
-#user specify id 
+#user need to enter data in json in postman as given features
+
+
+
+```
+
+```
+search contact 
+
+http://localhost:5001/search_contact
+
+#user need to enter data in json in postman as given features
 
 
 ```
 
-```
-#Delete ALL data retrive from column
-
-localhost/Update/ALL/by/<filter_except_id>/<update_column>
-
-
-# user need to specify <filter_except_id>/<update_column>
-
-```
 
 
 ## Contact

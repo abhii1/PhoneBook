@@ -113,7 +113,7 @@ python app.py
 
 
 
-<img src="https://user-images.githubusercontent.com/49953175/105625041-50241700-5e4c-11eb-99c7-703bca82d622.mp4" >
+<img src="https://user-images.githubusercontent.com/49953175/105625063-806bb580-5e4c-11eb-8065-effcfcb02ed3.gif" >
 
 
 **Delete contact by any field **
@@ -121,7 +121,7 @@ python app.py
 
 
 
-<img src="https://user-images.githubusercontent.com/49953175/95744370-cd1ded00-0cb0-11eb-8a34-55530cc33138.gif" >
+<img src="https://user-images.githubusercontent.com/49953175/105625086-b01abd80-5e4c-11eb-91bf-8a8fbd8ea7b7.gif" >
 
 
 
@@ -131,22 +131,23 @@ python app.py
 
 
 
-<img src="https://user-images.githubusercontent.com/49953175/95744913-ce034e80-0cb1-11eb-83e1-6c0a74e18c7c.gif" >
+<img src="https://user-images.githubusercontent.com/49953175/105625098-d3de0380-5e4c-11eb-8b24-e207c256bfaf.gif" >
 
 
 **Search by Email**
 
 
 
-<img src="https://user-images.githubusercontent.com/49953175/95745492-cf814680-0cb2-11eb-8c5a-e6387124959f.gif" >
+<img src="https://user-images.githubusercontent.com/49953175/105625280-e73d9e80-5e4d-11eb-86cb-9610b6df8805.gif" >
 
 
 **Search by Name **
+In place of email put Name 
 
 
 
 
-<img src="https://user-images.githubusercontent.com/49953175/95745682-24bd5800-0cb3-11eb-8b47-b81c1a9eab40.gif" >
+<img src="https://user-images.githubusercontent.com/49953175/105625280-e73d9e80-5e4d-11eb-86cb-9610b6df8805.gif" >
 
 
                            

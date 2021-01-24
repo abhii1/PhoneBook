@@ -2,11 +2,15 @@
 
 >Application help user to ___
 
-● Adding a contact
-● Modifying an existing contact
-● Deleting a contact
-● Get all contacts (10 contacts per page by default)
-● Search a contact by name or email address (10 results per page by default)
+● Adding a contact <br />
+
+● Modifying an existing contact  <br />
+
+● Deleting a contact  <br />
+
+● Get all contacts (10 contacts per page by default)  <br />
+
+● Search a contact by name or email address (10 results per page by default)  <br />
 
 
 Application has inbuild database by MongoDb atlas and uses python pymongo module to interact with database 

@@ -1,7 +1,6 @@
 # PhoneBook
 
 >Phonebook allows you to upload your plain text contact file from your computer, and search contact on your phone. It's designed
-
 for people who likes to keep all their contacts in a text file
 
 ● Adding a contact <br />

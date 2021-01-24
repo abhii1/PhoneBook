@@ -9,6 +9,7 @@ class operation:
     def __setup_connection(self):
 
         import pymongo
+
         try:
             client=pymongo.MongoClient("mongodb+srv://9125366556:ib4d6PDNfzCTNYP8@cluster0.xwtnq.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority")    #MongoClient is use for connection with database cluster
 
@@ -35,7 +36,14 @@ class operation:
         return collection
 
 
+    def check_email(self,email):
+        import re
+        regex='^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
 
+        if(re.search(regex,email)):
+            return "valid"
+        else:
+            return "Invalid_email"
 
 
     #--------------------------------------------------------------------------------------------------
@@ -64,10 +72,16 @@ class operation:
 
             Email=details['Email']  #fetching Email
 
+            check_email_value=self.check_email(Email)
+
 
             if(len(list(collection.find({'Email':email_check})))):  #checking Email exist or not
 
-                output={'status':'Email exist'}  #output
+                output={'status':'Email exist '}  #output
+
+            elif(check_email_value=='Invalid_email'): #checking weather format is valid or not
+
+                output={'status':' Invalid_email '}
 
             else:
                 dbResponse=collection.insert_one(details) #inserting one
@@ -187,7 +201,7 @@ class operation:
     def search_contact(self,data): # search contact by name or email adddress
 
         filter_value=data['Filter']
-        
+
         number_of_contact_to_print=int(data['value_to_print'])
 
         collection=self.connect_collection()

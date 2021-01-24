@@ -1,6 +1,8 @@
 # PhoneBook
 
->Application help user to ___
+>Phonebook allows you to upload your plain text contact file from your computer, and search contact on your phone. It's designed
+
+for people who likes to keep all their contacts in a text file
 
 ● Adding a contact <br />
 
@@ -64,7 +66,7 @@ Application has inbuild database by MongoDb atlas and uses python pymongo module
 
 <img src="https://user-images.githubusercontent.com/49953175/105624015-48607480-5e44-11eb-95b8-84aa51fa8e25.PNG" >
 
-- [X] User can serach contact by name (default 10) or can be any value 
+- [X] User can serach all contact .
 
 <img src="https://user-images.githubusercontent.com/49953175/105624031-6af28d80-5e44-11eb-9f88-bee2cb0ec1d5.PNG" >
 

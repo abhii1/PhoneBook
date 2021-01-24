@@ -113,7 +113,7 @@ python app.py
 
 
 
-<img src="https://user-images.githubusercontent.com/49953175/95743894-19b4f880-0cb0-11eb-96b0-ced545e85a29.gif" >
+<img src="https://user-images.githubusercontent.com/49953175/105625041-50241700-5e4c-11eb-99c7-703bca82d622.mp4" >
 
 
 **Delete contact by any field **
